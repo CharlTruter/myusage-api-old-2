@@ -1,0 +1,21 @@
+{
+    "extends": "airbnb-base",
+    "rules": {
+          "strict": [
+            2,
+            "safe"
+          ],
+          "class-methods-use-this": [
+            "error",
+            {
+              "exceptMethods": [
+                "tableName"
+              ]
+            }
+        ]
+    },
+    "parserOptions": {
+      "sourceType": "module"
+    }
+  }
+  
